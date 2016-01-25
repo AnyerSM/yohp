@@ -12,6 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="autenticar" method="get">
+            <input type="text" name="login" placeholder="Escribe tu login"/>
+            <input type="password" name="password" placeholder="Escribe tu password"/>
+            <input type="submit" value="Autenticarse ya!!!">
+            
+        </form>
     </body>
 </html>
