@@ -22,8 +22,11 @@ anotaciones en las tres----->es una componente visual
 @Component{(
 //generar un selector para q la pag pueda abrirlo
 selector:'mi ap'
-templete:'<h1>Hola desde angular 2</h>'
+templete:'<h1>Hola desde angular 2 {{nombre}} mi edsd es{{edad}}</h>'//manera en q se viasuslaizan los atributos en el navegador
 )}
 export class Componente1{
+nombre:string="Reyna";//atributo
+edad:number=22;//incializando atributos
 
 }
+//los atributos se invocan con llavecitas dobles
