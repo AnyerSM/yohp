@@ -5,3 +5,25 @@ walmart demandas
 ajiji guadalajara
 mentalidad de hacer una empresa
 https://github.com/curso-elementos/mi-angular2
+tutorial de angular en youtube
+typeScript--->
+
+angular 2 se maneja por modulos.
+
+componente1
+import{Component} from'angular2/core'
+//metadatos para que el navegador pueda reconocerlos por medio de etiquetas
+
+jpa
+spring
+angular
+
+anotaciones en las tres----->es una componente visual
+@Component{(
+//generar un selector para q la pag pueda abrirlo
+selector:'mi ap'
+templete:'<h1>Hola desde angular 2</h>'
+)}
+export class Componente1{
+
+}
